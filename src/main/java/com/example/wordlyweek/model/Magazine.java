@@ -41,14 +41,13 @@ public class Magazine {
         this.magazineId = magazineId;
     }
 
-    public String getTitle() {
+    public String getMagazineName() {
         return magazineName;
     }
 
-    public void setTitle(String title) {
-        this.magazineName = title;
+    public void setMagazineName(String magazineName) {
+        this.magazineName = magazineName;
     }
-
     public String getPublicationDate() {
         return publicationDate;
     }

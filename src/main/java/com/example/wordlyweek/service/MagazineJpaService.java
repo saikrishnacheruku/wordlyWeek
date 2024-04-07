@@ -61,8 +61,8 @@ public class MagazineJpaService implements MagazineRepository {
     try {
         Magazine newMagazine = magazineJpaRepository.findById(magazineId).get();
 
-        if (magazine.getTitle() != null) {
-            newMagazine.setTitle(magazine.getTitle());
+        if (magazine.getMagazineName() != null) {
+            newMagazine.setMagazineName(magazine.getMagazineName());
         }
 
         if (magazine.getWriters() != null) {
